@@ -68,7 +68,7 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: my-build-package
-        path: bikeshare_project/dist/*.whl
+        path: dist/*.whl
         retention-days: 1
 
   push-image:
