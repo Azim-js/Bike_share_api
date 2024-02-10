@@ -65,10 +65,11 @@ jobs:
       run: pip install --upgrade build
     - name: Build package
       run: python -m build
+      path: bikeshare_project/
     - uses: actions/upload-artifact@v2
       with:
         name: my-build-package
-        path: bikeshare_project/dist/*.whl
+        path: dist/*.whl
         retention-days: 1
 
   push-image:
