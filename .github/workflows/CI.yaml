@@ -51,7 +51,7 @@ jobs:
       env:
         DOCKER_USER: ${{secrets.DOCKER_USER_NAME}}
       run: |
-        docker build -t $DOCKER_USER/bikeshare_api bikeshare_project/bikeshare_model_api/
+        docker build -t $DOCKER_USER/bikeshare_api bikeshare_project/bikeshare_model_api/.
     - name: Login to DockerHub
       env:
         DOCKER_USER: ${{secrets.DOCKER_USER_NAME}}
