@@ -64,9 +64,7 @@ jobs:
     - name: Install dependencies
       run: pip install --upgrade build
     - name: Build package
-      run: |
-      pwd
-      python -m build
+      run: pwd
     - uses: actions/upload-artifact@v2
       with:
         name: my-build-package
