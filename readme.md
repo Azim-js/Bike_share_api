@@ -1,4 +1,4 @@
-Bike Share API - Mini Project 1: Simple ML Model Deployment
+# Bike Share API - Mini Project 1: Simple ML Model Deployment
 This repository contains the code for deploying a simple ML model using a pre-trained model and serving predictions through an API endpoint.
 
 Objectives
